@@ -6,7 +6,7 @@ All credit goes to Rune Moskvil Lyngås
 
 I adjusted the module he made and added the SU's and the latest CU's including Exchange 2019
 
-Run the script follows:
+Run the script as follows:
 Import-Module yourpath\Get-ExchangeCUandSUcopytoServers.psm1
 Get-ExchangeCU -Version 2019_CU11_SU_JAN_2022 -Directory C$\Temp -Name server1,server2 -RemoveTemp
 
